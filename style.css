@@ -149,11 +149,10 @@ body {
 }
 
 .main {
-  border: 1px solid yellowgreen;
   display: flex;
 
   .Liste {
-    width: 50%;
+    width: 35%;
     height: auto;
 
     margin-bottom: 3rem;
@@ -167,15 +166,19 @@ body {
     flex-wrap: wrap;
   }
   img {
-    height: 100px;
-    width: 100px;
+    display: flex;
+    height: 75px;
+    width: 75px;
+    float: left;
+    margin: 20px;
   }
   .main h2 {
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: 700;
   }
   .main p {
-    font-size: x-large;
+    font-size: xx-large;
+    float: right;
     a:link {
       text-decoration: none;
     }
@@ -232,8 +235,17 @@ footer {
 @media (1px < width < 700px) {
   .table {
     flex-direction: column;
+    width: 100%;
   }
   .Liste {
-    width: 90%;
+    display: flex;
+
+    float: right;
+    width: 100%;
+  }
+  .main img {
+    height: 70px;
+    width: 70px;
+    float: left;
   }
 }
