@@ -191,14 +191,6 @@ body {
       text-decoration: un;
       color: blue;
     }
-    @media (1px < width < 700px) {
-      .table {
-        flex-direction: column;
-      }
-      .Liste {
-        width: 90%;
-      }
-    }
   }
 }
 
@@ -234,5 +226,13 @@ footer {
   }
   button {
     background-color: #5d7df5;
+  }
+}
+@media (1px < width < 700px) {
+  .table {
+    flex-direction: column;
+  }
+  .Liste {
+    width: 90%;
   }
 }
