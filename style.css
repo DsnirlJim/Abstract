@@ -228,11 +228,30 @@ footer {
     background-color: #5d7df5;
   }
 }
+
+.rent {
+  display: none;
+}
+
 @media (1px < width < 700px) {
   .table {
     flex-direction: column;
   }
   .Liste {
     width: 90%;
+  }
+
+  .submit_btn {
+    display: none;
+  }
+
+  .rent {
+    display: block;
+    background-color: black;
+    border: none;
+  }
+
+  .login {
+    display: none;
   }
 }
